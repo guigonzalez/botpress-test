@@ -8,7 +8,7 @@ module.exports = {
 
   modulesConfigDir: process.env.BOTPRESS_CONFIG_DIR || './modules_config',
   disableFileLogs: false,
-  port: process.env.BOTPRESS_PORT || process.env.PORT || 3000,
+  port: process.env.PORT || 3000,
   optOutStats: false,
   notification: {
     file: 'notifications.json',
@@ -41,7 +41,7 @@ module.exports = {
     password: process.env.PG_PASSWORD || '',
     database: process.env.PG_DB || '',
     ssl: process.env.PG_SSL || false
-  },
+},
 
   /**
   * License configuration

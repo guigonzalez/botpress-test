@@ -17,4 +17,7 @@
   },
   "author": "guigonzalez",
   "license": "Botpress Proprietary License"
+   "engines": {
+    "node": "7.1.0"
+  }
 }
