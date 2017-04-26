@@ -1,0 +1,20 @@
+{
+  "name": "kirk-station",
+  "version": "0.0.1",
+  "description": "test for kirk",
+  "main": "index.js",
+  "dependencies": {
+    "botpress": "0.x",
+    "botpress-analytics": "^2.0.7",
+    "botpress-botkit": "^1.0.5",
+    "botpress-messenger": "^2.0.11",
+    "botpress-slack": "^1.0.21",
+    "botpress-wit": "^2.0.10"
+  },
+  "scripts": {
+    "start": "botpress start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "guigonzalez",
+  "license": "Botpress Proprietary License"
+}
